@@ -1,3 +1,56 @@
 AngularJS is a modern web framework that utilizes the MVC method.
 
-  - built upon Javascript and JQuery
+  - built upon JavaScript and jQuery
+  - dynamically update webpage as data changes
+  - MVC
+    - using the MVC to structure your code will make the site
+        easier to maintain, easier to update, and ensure the code
+        is much more readable
+
+  Model
+    - represents the data source
+    - generally a database
+    - MSSQL, Azure, Firebase
+
+  View
+    - the rendered webpage
+    - gathers data from the Model
+    - HTML, CSS, Bootstrap
+
+
+  Controller
+    - will handle the communication between the Model and View
+    - JavaScript
+    - jQuery
+    - API
+
+    JARGON
+
+      Modules
+        - AngularJS uses modules to represent components
+        - easier to reuse the code
+            - in other parts of your site
+            - and additional sites
+        - webpages will be modified using the DOM object
+
+      Directives
+        - the ability to extend html tags, elements
+        - allows binding data directly to an element
+
+      Scope
+        - JavaScript objects that AngularJS will use to represent the data
+        - basically, when you see SCOPE, think data
+            - can be webserver data
+            - database
+            - webservice (API)
+            - Client side AngularJS code
+
+      Expressions [Data Binding]
+        - when data changes on the webpage
+              the model will be updated
+        - when data changes on the model
+              the webpage will be automatically updated
+
+      Services
+        - different methods, techniques, and more for
+            handling, updating, and modifying data dynamically
