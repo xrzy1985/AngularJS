@@ -1,0 +1,3 @@
+AngularJS is a modern web framework that utilizes the MVC method.
+
+  - built upon Javascript and JQuery
